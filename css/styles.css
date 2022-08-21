@@ -19,9 +19,12 @@
 
 /*header*/
 
-.page {
+body {
 	font-family: var(--main-font);
 	color: var(--main-txt-cl);
+	background-color: var(--white-bg-cl);
+	font-size: 14px;
+	letter-spacing: 0.03em;
 }
 .logo {
 	font-family: var(--secondary-font);
@@ -48,6 +51,10 @@
 	background-color: var(--white-bg-cl);
 }
 .link-current {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: calc(16 / 14);
+	letter-spacing: 0.02em;
 	color: var(--button-cl);
 }
 
@@ -79,10 +86,23 @@
 	line-height: calc(60 / 44);
 	letter-spacing: 0.06em;
 	color: var(--white-txt-cl);
+	text-transform: uppercase;
+	text-align: center;
 }
 .shapka-button {
 	background-color: var(--button-cl);
 	color: var(--white-txt-cl);
+	cursor: pointer;
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: calc(30 / 16);
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.06em;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	border-radius: 4px;
 }
 
 /*feature*/
@@ -93,21 +113,11 @@
 	line-height: calc(16 / 14);
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-
-	width: 270px;
-	height: 16px;
-	left: 215px;
-	top: 774px;
 }
 .feature-txt {
 	font-size: 14px;
 	line-height: calc(24 / 14);
 	color: var(--grey-txt-cl);
-
-	width: 270px;
-	height: 72px;
-	left: 215px;
-	top: 800px;
 }
 
 .section-title {
@@ -123,7 +133,6 @@
 }
 .team-box {
 	background: var(--white-bg-cl);
-
 }
 
 .name {
@@ -178,12 +187,14 @@
 	letter-spacing: 0.03em;
 	font-family: var(--main-font);
 	color: var(--main-txt-cl);
+	background-color: var(--light-bg-cl);
 	cursor: pointer;
 }
 
 .button-filter:hover,
 .button-filter:focus {
 	background-color: #2196f3;
+	color: var(--white-txt-cl);
 }
 
 .project-title {
@@ -195,7 +206,7 @@
 .project-subtitle {
 	font-weight: 400;
 	font-size: 16px;
-	line-height: 30px;
+	line-height: calc(30 / 16);
 	letter-spacing: 0.03em;
 	color: var(--grey-txt-cl);
 }
