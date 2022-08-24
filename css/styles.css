@@ -42,6 +42,13 @@ body {
 	letter-spacing: 0.03em;
 	color: var(--button-cl);
 }
+.logo-footer {
+	font-weight: 700;
+	font-size: 26px;
+	line-height: calc(31 / 26);
+	letter-spacing: 0.03em;
+	color: var(--white-txt-cl);
+}
 .header .link {
 	font-weight: 500;
 	font-size: 14px;
@@ -75,12 +82,12 @@ body {
 	color: var(--button-cl);
 }
 
-/*shapka*/
+/*hero (shapka)*/
 
-.shapka {
+.hero {
 	background: #2f303a;
 }
-.shapka-tx {
+.hero-tx {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: calc(60 / 44);
@@ -89,7 +96,7 @@ body {
 	text-transform: uppercase;
 	text-align: center;
 }
-.shapka-button {
+.hero-button {
 	background-color: var(--button-cl);
 	color: var(--white-txt-cl);
 	cursor: pointer;
